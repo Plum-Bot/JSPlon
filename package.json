@@ -1,0 +1,22 @@
+{
+  "name": "plon",
+  "version": "1.0.0",
+  "description": "The official Plon Lang lexer + parser + interpreter combo.",
+  "main": "plon",
+  "dependencies": {
+    "@types/readline-sync": "^1.4.3",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [
+    "plon",
+    "lang"
+  ],
+  "author": "Samplasion <samplasion@gmail.com>",
+  "bin": {
+    "plon": "./plon.js"
+  }
+}
